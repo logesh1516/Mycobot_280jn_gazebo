@@ -38,7 +38,7 @@ add_executable(example_joint_trajectory_publisher_cpp src/example_joint_trajecto
 ament_target_dependencies(example_joint_trajectory_publisher_cpp ${dependencies})
 
 install (
-  DIRECTORY config launch  scripts src urdf worlds
+  DIRECTORY config launch src urdf worlds
   DESTINATION share/${PROJECT_NAME}
 )
 
